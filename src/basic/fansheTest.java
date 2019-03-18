@@ -41,7 +41,7 @@ public class fansheTest {
         //获得类的public类型的方法。这里包括 Object 类的一些方法
         Method [] methods = clazz.getMethods();
         for(Method method : methods){
-            System.out.println(method.getName());//work waid equls toString hashCode notify等
+            System.out.println(method.getName());//speak  equls toString hashCode notify等
         }
 
          //获得类的所有方法。
